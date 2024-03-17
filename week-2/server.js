@@ -1,5 +1,5 @@
 var express = require("express")
-// useing express like import in python
+// useing express like same as import work in python
 var app = express()
 // Inside there is express function which called as app
 var port = process.env.port || 3000;
