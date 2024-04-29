@@ -1,0 +1,57 @@
+version: '3'
+services:
+  app1:
+    build: .
+    image: devpatel34/week5
+    ports:
+      - "3040:3040"
+    environment:
+      - PORT=3040
+    container_name: my-app1
+    networks:
+      - my-net
+    restart: always
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3040/healthcheck"]
+      timeout: 1m
+      retries: 2
+
+  app2:
+    build: .
+    image: devpatel34/week5
+    ports:
+      - '3041:3040'
+    environment:
+      - PORT=3041
+    container_name: my-app2
+    networks:
+      - my-net
+    restart: always
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3041/healthcheck"]
+      timeout: 1m
+      retries: 2
+
+  app3:
+    build: .
+    image: devpatel34/week5
+    ports:
+      - '3042:3040'
+    environment:
+      - PORT=3042
+    container_name: my-app3
+    networks:
+      - my-net
+    restart: always
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3042/healthcheck"]
+      timeout: 1m
+      retries: 2
+
+
+networks:
+  my-net:
+    driver: bridge
+
+
+
