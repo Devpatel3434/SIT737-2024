@@ -1,0 +1,14 @@
+{"level":"info","message":"Parameters 567 and 531789 received for addition","service":"calculate-service"}
+{"level":"error","message":"n1 is incorrectly defined","service":"calculate-service"}
+{"level":"info","message":"Parameters 567 and 531789 received for addition","service":"calculate-service"}
+{"level":"info","message":"Parameters 56789 and 5317 received for substraction","service":"calculate-service"}
+{"level":"info","message":"Parameters 7 and 5 received for substraction","service":"calculate-service"}
+{"level":"info","message":"Parameters 7 and 5 received for substraction","service":"calculate-service"}
+{"level":"info","message":"Parameters 7 and 5 received for substraction","service":"calculate-service"}
+{"level":"info","message":"Parameters 7 and 3 received for substraction","service":"calculate-service"}
+{"level":"info","message":"Parameters 7 and 3 received for substraction","service":"calculate-service"}
+{"level":"info","message":"Parameters 7 and 2 received for substraction","service":"calculate-service"}
+{"level":"info","message":"Parameters 3 and 4 received for multiplication","service":"calculate-service"}
+{"level":"info","message":"Parameters 9 and 3 received for division","service":"calculate-service"}
+{"level":"info","message":"Parameters 9 and 3 received for division","service":"calculate-service"}
+{"level":"error","message":"n2 is incorrectly defined","service":"calculate-service"}
